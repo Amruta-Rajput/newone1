@@ -1,7 +1,7 @@
 pipeline {
 	agent {
 		label{
-			label "slave-linux"
+			label 'slave-linux'
 		
 		}
 	}
