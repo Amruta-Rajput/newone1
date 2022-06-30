@@ -1,5 +1,9 @@
 pipeline {
-agent any
+	agent {
+		label{
+		label "slave-linux"
+		}
+	}
 
              stages{
 			 stage('git_checkout'){
